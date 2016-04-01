@@ -62,10 +62,11 @@ div.dropdown {
 
 #container{
 	width: 100%;
-	background-color: #FFFFF6;
+	background-color: #147FCC;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	height: 0%;
 }
 div.linksLeft {
 	float: left;
@@ -91,6 +92,8 @@ div.mainSection {
 	float: left;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
+
+
 .mainSection h1 {
 	text-align: center;
 }
@@ -183,3 +186,31 @@ a:visited {
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
 }
+footer {
+	padding: 10px 0;
+	position: relative;
+	clear: both;
+	background-color: #147FCC;
+}
+
+#footer {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #147FCC;
+}
+#left {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: 49%;
+	text-align: right;
+	padding-right: 1px;
+	float: left;
+	background-color: #147FCC;
+}
+#right {
+	width: 50%;
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #147FCC;
+}
+
