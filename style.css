@@ -66,7 +66,6 @@ div.dropdown {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	height: 0%;
 }
 div.linksLeft {
 	float: left;
@@ -194,23 +193,24 @@ footer {
 }
 
 #footer {
-	width: 60%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #147FCC;
 }
 #left {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	width: 49%;
+	width: 50%;
 	text-align: right;
-	padding-right: 1px;
 	float: left;
 	background-color: #147FCC;
+	text-decoration: underline;
 }
 #right {
 	width: 50%;
 	float: right;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	background-color: #147FCC;
+	text-indent: 10px;
 }
 
